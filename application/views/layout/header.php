@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <!-- <link rel="icon" href="../images/favicon.ico"> -->
 
-    <title>MinimalLite Admin - Dashboard</title>
+    <title>Responsive Admin</title>
     
 	<!-- Bootstrap 4.0-->
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/assets/vendor_components/bootstrap/dist/css/bootstrap.css">
@@ -19,7 +19,7 @@
 	<!-- theme style -->
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/admin-main/css/master_style.css">
 	
-	<!-- MinimalLite Admin skins. choose a skin from the css/skins folder instead of downloading all of them to reduce the load. -->
+	
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/admin-main/css/skins/_all-skins.css">
 	  
     <!-- Morris.js charts CSS -->
@@ -53,16 +53,18 @@
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="index.html" class="logo">
+    <a href="#" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
 	  <b class="logo-mini">
-		  <span class="light-logo"><img src="<?php echo base_url() ?>assets/images/aries-light.png" alt="logo"></span>
-		  <span class="dark-logo"><img src="<?php echo base_url() ?>assets/images/aries-dark.png" alt="logo"></span>
+		  <!-- <span class="light-logo"><img src="<?php echo base_url() ?>assets/images/aries-light.png" alt="logo"></span>
+		  <span class="dark-logo"><img src="<?php echo base_url() ?>assets/images/aries-dark.png" alt="logo"></span> -->
+      <!-- <h2>ADM</h2> -->
 	  </b>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg">
-		  <img src="<?php echo base_url() ?>assets/images/logo-light-text.png" alt="logo" class="light-logo">
-	  	  <img src="<?php echo base_url() ?>assets/images/logo-dark-text.png" alt="logo" class="dark-logo">
+		  <!-- <img src="<?php echo base_url() ?>assets/images/logo-light-text.png" alt="logo" class="light-logo">
+	  	  <img src="<?php echo base_url() ?>assets/images/logo-dark-text.png" alt="logo" class="dark-logo"> -->
+        <h2>APLIKASI</h2>
 	  </span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->

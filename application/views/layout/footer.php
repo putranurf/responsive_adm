@@ -3,14 +3,14 @@
     <div class="pull-right d-none d-sm-inline-block">
         <ul class="nav nav-primary nav-dotted nav-dot-separated justify-content-center justify-content-md-end">
 		  <li class="nav-item">
-			<a class="nav-link" href="javascript:void(0)">FAQ</a>
+			<a class="nav-link" href="javascript:void(0)"></a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="https://themeforest.net/item/minimal-lite-responsive-bootstrap-4-admin-dashboard-webapp-template/21241896">Purchase Now</a>
+			
 		  </li>
 		</ul>
     </div>
-	  &copy; 2017 <a href="https://www.multipurposethemes.com/">Multi-Purpose Themes</a>. All Rights Reserved.
+	  &copy; 2020. All Rights Reserved.
   </footer>
 
   <!-- Control Sidebar -->
