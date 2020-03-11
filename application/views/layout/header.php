@@ -77,24 +77,24 @@
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
 		  
-		  <li class="search-box">
+		  <!-- <li class="search-box">
             <a class="nav-link hidden-sm-down" href="javascript:void(0)"><i class="mdi mdi-magnify"></i></a>
             <form class="app-search" style="display: none;">
                 <input type="text" class="form-control" placeholder="Search &amp; enter"> <a class="srh-btn"><i class="ti-close"></i></a>
 			</form>
-          </li>			
+          </li>			 -->
 		  
           <!-- Messages: style can be found in dropdown.less-->
-          <li class="dropdown messages-menu">
+          <!-- <li class="dropdown messages-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="mdi mdi-email"></i>
             </a>
             <ul class="dropdown-menu scale-up">
               <li class="header">You have 5 messages</li>
               <li>
-                <!-- inner menu: contains the actual data -->
+               
                 <ul class="menu inner-content-div">
-                  <li><!-- start message -->
+                  <li>
                     <a href="#">
                       <div class="pull-left">
                         <img src="<?php echo base_url() ?>assets/images/user2-160x160.jpg" class="rounded-circle" alt="User Image">
@@ -108,7 +108,7 @@
                       </div>
                     </a>
                   </li>
-                  <!-- end message -->
+                  
                   <li>
                     <a href="#">
                       <div class="pull-left">
@@ -169,16 +169,15 @@
               </li>
               <li class="footer"><a href="#">See all e-Mails</a></li>
             </ul>
-          </li>
+          </li> -->
           <!-- Notifications: style can be found in dropdown.less -->
-          <li class="dropdown notifications-menu">
+          <!-- <li class="dropdown notifications-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="mdi mdi-bell"></i>
             </a>
             <ul class="dropdown-menu scale-up">
               <li class="header">You have 7 notifications</li>
-              <li>
-                <!-- inner menu: contains the actual data -->
+              <li>               
                 <ul class="menu inner-content-div">
                   <li>
                     <a href="#">
@@ -219,18 +218,18 @@
               </li>
               <li class="footer"><a href="#">View all</a></li>
             </ul>
-          </li>
+          </li> -->
           <!-- Tasks: style can be found in dropdown.less -->
-          <li class="dropdown tasks-menu">
+          <!-- <li class="dropdown tasks-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="mdi mdi-message"></i>
             </a>
             <ul class="dropdown-menu scale-up">
               <li class="header">You have 6 tasks</li>
               <li>
-                <!-- inner menu: contains the actual data -->
+                
                 <ul class="menu inner-content-div">
-                  <li><!-- Task item -->
+                  <li>
                     <a href="#">
                       <h3>
                         Lorem ipsum dolor sit amet
@@ -244,8 +243,8 @@
                       </div>
                     </a>
                   </li>
-                  <!-- end task item -->
-                  <li><!-- Task item -->
+                  
+                  <li>
                     <a href="#">
                       <h3>
                         Vestibulum nec ligula
@@ -259,8 +258,8 @@
                       </div>
                     </a>
                   </li>
-                  <!-- end task item -->
-                  <li><!-- Task item -->
+                  
+                  <li>
                     <a href="#">
                       <h3>
                         Donec id leo ut ipsum
@@ -274,8 +273,8 @@
                       </div>
                     </a>
                   </li>
-                  <!-- end task item -->
-                  <li><!-- Task item -->
+                  
+                  <li>
                     <a href="#">
                       <h3>
                         Praesent vitae tellus
@@ -289,8 +288,8 @@
                       </div>
                     </a>
                   </li>
-                  <!-- end task item -->
-                  <li><!-- Task item -->
+                  
+                  <li>
                     <a href="#">
                       <h3>
                         Nam varius sapien
@@ -304,8 +303,8 @@
                       </div>
                     </a>
                   </li>
-                  <!-- end task item -->
-                  <li><!-- Task item -->
+                  
+                  <li>
                     <a href="#">
                       <h3>
                         Nunc fringilla
@@ -319,14 +318,14 @@
                       </div>
                     </a>
                   </li>
-                  <!-- end task item -->
+                  
                 </ul>
               </li>
               <li class="footer">
                 <a href="#">View all tasks</a>
               </li>
             </ul>
-          </li>
+          </li> -->
 		  <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -369,9 +368,9 @@
             </ul>
           </li>
           <!-- Control Sidebar Toggle Button -->
-          <li>
+          <!-- <li>
             <a href="#" data-toggle="control-sidebar"><i class="fa fa-cog fa-spin"></i></a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </nav>
