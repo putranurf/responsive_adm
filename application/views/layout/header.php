@@ -329,38 +329,28 @@
 		  <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="<?php echo base_url() ?>assets/images/user5-128x128.jpg" class="user-image rounded-circle" alt="User Image">
+              <img src="<?php if($tamprofile->foto==''){$linkfoto= 'theme/dist/img/avatar5.png';}else{$linkfoto= $tamprofile->foto;} ?>" class="user-image rounded-circle" alt="User Image">
             </a>
+
             <ul class="dropdown-menu scale-up">
               <!-- User image -->
               <li class="user-header">
-                <img src="<?php echo base_url() ?>assets/images/user5-128x128.jpg" class="float-left rounded-circle" alt="User Image">
+                <img src="<?php echo base_url().$linkfoto; ?>" class="float-left rounded-circle" alt="User Image">
 
                 <p>
-                  Juliya Brus
-                  <small class="mb-5">jb@gmail.com</small>
-                  <a href="#" class="btn btn-danger btn-sm btn-rounded">View Profile</a>
+                  <?php echo $tamprofile->nama; ?>
+                  <!-- <a href="#" class="btn btn-danger btn-sm btn-rounded">View Profile</a> -->
                 </p>
               </li>
               <!-- Menu Body -->
               <li class="user-body">
                 <div class="row no-gutters">
                   <div class="col-12 text-left">
-                    <a href="#"><i class="ion ion-person"></i> My Profile</a>
-                  </div>
-                  <div class="col-12 text-left">
-                    <a href="#"><i class="ion ion-email-unread"></i> Inbox</a>
-                  </div>
-                  <div class="col-12 text-left">
-                    <a href="#"><i class="ion ion-settings"></i> Setting</a>
-                  </div>
+                    <a href="<?php echo base_url(); ?>administrator/profile"><i class="ion ion-person"></i> Profil</a>
+                  </div>                			
 				<div role="separator" class="divider col-12"></div>
 				  <div class="col-12 text-left">
-                    <a href="#"><i class="ti-settings"></i> Account Setting</a>
-                  </div>
-				<div role="separator" class="divider col-12"></div>
-				  <div class="col-12 text-left">
-                    <a href="#"><i class="fa fa-power-off"></i> Logout</a>
+                    <a href="<?php echo base_url(); ?>login/logout"><i class="fa fa-power-off"></i> Logout</a>
                   </div>				
                 </div>
                 <!-- /.row -->
